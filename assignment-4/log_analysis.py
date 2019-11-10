@@ -566,7 +566,7 @@ print 'Found %d 404 URLs' % badRecords.count()
 # COMMAND ----------
 
 # TEST Counting 404 (4a)
-Test.assertEquals(badRecords.count(), 6185, 'incorrect badRecords.count()')
+Test.assertEquals(badRecords.count(), 206, 'incorrect badRecords.count()')
 Test.assertTrue(badRecords.is_cached, 'incorrect badRecords.is_cached')
 
 # COMMAND ----------
